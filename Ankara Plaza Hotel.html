@@ -204,8 +204,8 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <body>
 <div id="logo">
   <div id="logo1"><img src="../image/logo.png" width="300" height="100" /></div>
-  <div id="logo2"><img src="../image/facebook logo.jpg" width="50" height="50" /><img src="../image/gmail logo.png" width="50" height="50" /><img src="../image/youtube logo.jpg" width="50" height="50" /><img src="../image/twitter logo.png" width="50" height="50" /></div>
-  <div id="logo3"><img src="../image/telefon no.PNG" width="238" height="45" /></div>
+  <div id="logo2"><img src="../image/facebook%20logo.jpg" width="50" height="50" /><img src="../image/gmail%20logo.png" width="50" height="50" /><img src="../image/youtube%20logo.jpg" width="50" height="50" /><img src="../image/twitter%20logo.png" width="50" height="50" /></div>
+  <div id="logo3"><img src="../image/telefon%20no.PNG" width="238" height="45" /></div>
 </div>
 <div id="anadiv">
   <div id="menu">
@@ -288,18 +288,15 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   <div id="arama">
     <table width="300" border="1">
       <tr>
-        <td><img src="../image/grand yazıcı/arama.PNG" width="24" height="22" /> Tatil Arama </td>
+        <td><img src="../image/grand%20yazıcı/arama.PNG" width="24" height="22" /> Tatil Arama </td>
       </tr>
     </table>
     <hr />
     <p>Bölge / Otel / Kampanya</p>
-    <form id="form5" name="form5" method="post" action="">
-      <span id="sprytextfield1">
-        <label>
-          <input type="text" name="text1" id="text1" />
-        </label>
-        <span class="textfieldRequiredMsg">Bir değer gerekiyor.</span></span>
-    </form>
+    <form action="sonuc.php" method="get">
+ <input type="text" name="aramasorgusu" placeholder="Aramak istediğiniz kelimeyi yazınız">
+ <input type="submit" value="Ara">
+</form>
     <p>&nbsp;</p>
     <table width="302" border="1" cellspacing="1" cellpadding="1">
       <tr>
